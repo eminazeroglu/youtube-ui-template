@@ -1,0 +1,133 @@
+body {
+    background-color: var(--youtube-black-18);
+}
+
+.subscription {
+    padding-left: 20px;
+}
+
+.subscription .title {
+    color: var(--youtube-aa); 
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.subscription-content {
+    padding-top: 8px;
+}
+
+.subscription-item {
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+    position: relative;
+}
+
+.subscription-item figure {
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.subscription-item .text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 15px;
+}
+
+.subscription-item .dot {
+    width: 4px;
+    height: 4px;
+    display: inline-flex;
+    border-radius: 50%;
+    background-color: var(--youtube-blue);
+    position: absolute;
+    right: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 32px 8px 0;
+    border-bottom: 1px solid var(--youtube-black-32);
+}
+
+.header .search-box {
+    width: 580px;
+    margin: 0 auto;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.header .search-box .search {
+    border: 1px solid var(--youtube-black-32);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+.header .search-box .search input {
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    padding: 0 6px;
+    color: var(--youtube-aa);
+}
+
+.header .search-box .voice {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+.header .search-box .search button {
+    width: 56px;
+    height: 36px;
+    background-color: var(--youtube-black-32);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .search-box .search input::placeholder {
+    color: var(--youtube-aa);
+}
+
+.header .button-item button figure {
+    width: 28px;
+    height: 28px;
+}
+
+.header .buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header .button-item {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .profile {
+    border-radius: 50%;
+    overflow: hidden;
+}
